@@ -28,6 +28,8 @@ main button {
     border-radius: 40px;
     border-style: none;
     width: 15rem;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 header {
