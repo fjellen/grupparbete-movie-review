@@ -7,9 +7,51 @@
 body {
     height: 100vh;
     width: 100%;
+    background-color: black;
 }
 
-main img{
-    max-width: 100%;
-    height: auto;
+main {
+   width: 100%;
+   height: 74.5vh;
+   background-image: url('pictures/denise-jans-OaVJQZ-nFD0-unsplash.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+main button {
+    background-color: orange;
+    height: 4rem;
+    border-radius: 40px;
+    border-style: none;
+    width: 15rem;
+}
+
+header {
+    height: 7rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+}
+
+header input {
+    height: 2.5rem;
+    border-radius: 40px;
+    background-color: black;
+    background-image: url('pictures/svg-search-icon-26.jpg');
+    background-size: 2rem;
+    background-repeat: no-repeat;
+    background-position: 181px 3px;
+    border-color: orange;
+    border-width: 1px;
+    padding: 12px 20px 12px 40px;
+}
+
+footer {
+    height: 14rem;
+    background-color: black;
 }
