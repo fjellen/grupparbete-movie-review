@@ -2,8 +2,12 @@ let noPages = null;
 const APIKey = 'ABGhAz7mHz2uYymBiuGQUhBYc4taw5KF';
 const main = document.querySelector('main');
 
+const randomMovie = document.querySelector("#random-movie")
+
+
+
 // Get random movie review from API and create HTML elements
-window.addEventListener('DOMContentLoaded', async function(event) {
+randomMovie.addEventListener('click', async function(event) {
 	const maxOffset = 3860;
 	const numberOfPages = maxOffset / 20;
 	

@@ -40,6 +40,7 @@ header {
     display: flex;   
     align-items: center;
     overflow: hidden;
+    justify-content: space-between;
     position: fixed;
 }
 
@@ -55,6 +56,7 @@ header input {
     border-color: orange;
     border-width: 1px;
     padding: 12px 20px 12px 40px;
+    margin-right: 13px;
 }
 
 footer {
@@ -125,8 +127,7 @@ button {
     height: 62%;
     width: 5rem;
     background-image: url('pictures/SVG\ Logga\ move.png');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    margin-right: 66rem;
     margin-left: 13px;
 }
