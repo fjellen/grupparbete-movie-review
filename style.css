@@ -18,7 +18,9 @@ main {
    background-repeat: no-repeat;
    background-size: cover;
    display: flex;
+   flex-direction: column;
    justify-content: center;
+   align-items: center;
 }
 
 main button {
@@ -66,14 +68,16 @@ footer {
     align-items: center;
 }
 
-footer h3 {
+.footer-article h3 {
     color: white;
+    margin-bottom: 1rem;
 
 }
 
-footer p {
-    color: white;
+.footer-icons {
+    width: 18rem;
 }
+
 
 .circle {
     height: 3rem;
@@ -82,5 +86,30 @@ footer p {
     border-width: 1px;
     border-style: solid;
     border-color: thistle;
+   
+}
+
+.git {
     background-image: url('pictures/github.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.figma {
+    background-image: url('pictures/figma.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.circle, circle {
+    margin-left: 4.5rem;
+}
+
+.js-index {
+    height: 20rem;
+    width: 65rem;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 1rem;
+
 }
