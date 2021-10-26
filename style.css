@@ -35,16 +35,19 @@ main button {
 
 header {
     height: 10%;
-    background-color: black;
-    display: flex;
-    justify-content: center;   
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;   
     align-items: center;
+    overflow: hidden;
+    position: fixed;
 }
 
 header input {
     height: 2.5rem;
     border-radius: 40px;
-    background-color: black;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.6);
     background-image: url('pictures/svg-search-icon-26.jpg');
     background-size: 2rem;
     background-repeat: no-repeat;
@@ -55,7 +58,7 @@ header input {
 }
 
 footer {
-    height: 14rem;
+    height: 20rem;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -112,4 +115,17 @@ footer {
     border-width: 1px;
     margin-bottom: 1rem;
 
+}
+
+button {
+    cursor: pointer;
+}
+
+.pic {
+    height: 62%;
+    width: 5rem;
+    background-image: url('pictures/SVG\ Logga\ move.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 66rem;
 }
